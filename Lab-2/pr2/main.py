@@ -32,7 +32,7 @@ elif (ch == 4):
         print("The number is not found")
     else:
         print("The number is found at index ", res)
-elif (ch == 5):
+elif (ch == 5): 
     key = (int)(input("Enter the number to be searched : "))
     res = yoursearch.binary_search(arr, key)
     if (res == -1):
